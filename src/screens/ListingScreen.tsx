@@ -72,16 +72,16 @@ class ListingScreen extends React.PureComponent<Props, States> {
             margin: 10,
           }}>
           <Text style={{padding: 5, fontWeight: 'bold', color: 'black'}}>
-            {item.title}
+            Title : {item.title}
           </Text>
           <Text style={{padding: 5, fontWeight: '500', color: 'black'}}>
-            {item.author}
+            Auther : {item.author}
           </Text>
           <Text style={{padding: 5, fontWeight: '400', color: 'black'}}>
-            {item.created_at}
+            Created Date :{item.created_at}
           </Text>
           <Text style={{padding: 5, fontWeight: '100', color: 'black'}}>
-            {item.url}
+            URL : {item.url}
           </Text>
         </View>
       </TouchableOpacity>
