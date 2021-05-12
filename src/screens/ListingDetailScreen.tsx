@@ -43,7 +43,7 @@ class ListingDetailScreen extends PureComponent<Props, States> {
   render() {
     return (
       <View style={styles.container}>
-        <Text>
+        <Text style={{padding: 10}}>
           {this.state.item ? JSON.stringify(this.state.item) : 'Nothing'}
         </Text>
       </View>
