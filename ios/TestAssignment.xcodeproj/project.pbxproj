@@ -145,7 +145,6 @@
 				746BDEA283E206DF749A9E9B /* Pods-TestAssignment-TestAssignmentTests.debug.xcconfig */,
 				311B569CC71D9FF63964B338 /* Pods-TestAssignment-TestAssignmentTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -485,6 +484,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SLZPTUJZD4;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = TestAssignment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -511,6 +511,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SLZPTUJZD4;
 				INFOPLIST_FILE = TestAssignment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
